@@ -1,6 +1,31 @@
 h1{
     text-align: center;
 }
+
+header {
+    background-color: #3498db; /* Initial background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+
+header h1 {
+    margin: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect */
+header:hover {
+    background-color: #2ecc71; /* New background color on hover */
+}
+
+header:hover h1 {
+    transform: scale(1.05); /* Slight zoom effect */
+    opacity: 0.9;           /* Slight fade effect */
+}
+
+
 /* Navigacija */
 .dropbtn {
     background-color: #d40e0e;
