@@ -1,6 +1,28 @@
 h1{
     text-align: center;
 }
+
+header {
+    background-color: #d40e0e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 1s ease;
+}
+
+header h1 {
+    margin: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+header:hover {
+    background-color: navy;
+}
+
+header:hover h1 {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
 /* Navigacija */
 .dropbtn {
     background-color: #d40e0e;
