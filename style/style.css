@@ -3,28 +3,26 @@ h1{
 }
 
 header {
-    background-color: #3498db; /* Initial background color */
+    background-color: #d40e0e;
     color: white;
     text-align: center;
     padding: 20px;
-    transition: background-color 0.5s ease;
+    transition: background-color 1s ease;
 }
 
 header h1 {
     margin: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 1s ease, opacity 1s ease;
 }
 
-/* Hover effect */
 header:hover {
-    background-color: #2ecc71; /* New background color on hover */
+    background-color: navy;
 }
 
 header:hover h1 {
-    transform: scale(1.05); /* Slight zoom effect */
-    opacity: 0.9;           /* Slight fade effect */
+    transform: scale(1.1);
+    opacity: 0.9;
 }
-
 
 /* Navigacija */
 .dropbtn {
